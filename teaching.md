@@ -1,4 +1,5 @@
 ---
+title: Teaching
 ---
 
 ## 2026 Fall
