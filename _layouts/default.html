@@ -12,6 +12,14 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
+      <nav aria-label="Main navigation"
+           style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research.html' | relative_url }}">Research</a>
+        <a href="{{ '/talks.html' | relative_url }}">Talks</a>
+        <a href="{{ '/teaching.html' | relative_url }}">Teaching</a>
+      </nav>
+
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
